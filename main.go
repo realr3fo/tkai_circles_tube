@@ -5,8 +5,8 @@ import (
 	"github.com/gorilla/mux"
 	"net/http"
 	"os"
-	"tkai_circles_tube/app"
-	"tkai_circles_tube/controllers"
+	"github.com/realr3fo/tkai_circles_tube/app"
+	"github.com/realr3fo/tkai_circles_tube/controllers"
 )
 
 func main() {
@@ -21,7 +21,7 @@ func main() {
 
 	port := os.Getenv("PORT")
 	if port == "" {
-		port = "8002" //localhost
+		port = "8003" //localhost
 	}
 
 	fmt.Println(port)
