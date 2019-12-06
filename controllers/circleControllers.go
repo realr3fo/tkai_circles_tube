@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	_ "fmt"
 	"net/http"
-	"tkai_circles_tube/models"
-	u "tkai_circles_tube/utils"
+	"github.com/realr3fo/tkai_circles_tube/models"
+	u "github.com/realr3fo/tkai_circles_tube/utils"
 )
 
 var GetCircleArea = func(w http.ResponseWriter, r *http.Request) {
